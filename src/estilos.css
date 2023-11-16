@@ -7,8 +7,8 @@
   height: 15px;
   background: #f00;
   position: absolute;
-  left: 35px;
-  top: 75px;
+  /* left: 35px; */
+  /* top: 75px; */
   border: 2px solid #fff;
   border-radius: 10px;
 }
@@ -22,13 +22,13 @@
   margin: 5px;
 }
 
-.barra1 {
+#barra1 {
   top: 20px;
   float: left;
   position: absolute;
 }
 
-.barra2 {
+#barra2 {
   top: 20px;
   right: 0px;
   position: absolute;
