@@ -1,0 +1,41 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+#ball {
+  width: 15px;
+  height: 15px;
+  background: #f00;
+  position: absolute;
+  left: 35px;
+  top: 75px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.barra {
+  width: 20px;
+  height: 100px;
+  background: #000;
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.barra1 {
+  top: 20px;
+  float: left;
+  position: absolute;
+}
+
+.barra2 {
+  top: 20px;
+  right: 0px;
+  position: absolute;
+}
+
+.linea {
+  width: 50%;
+  border-right: #fff dashed 2px;
+  height: 100%;
+}
